@@ -1,0 +1,61 @@
+/* External CSS for Global Styling */
+
+/* Part 1: Element Selector */
+h1, h2 {
+    font-size: 24px;
+    color: #34495e;
+}
+
+/* Part 2: Styling Body and Links */
+body {
+    background-color: #ecf0f1;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+
+/* Part 1: Class Selector */
+.special-section {
+    background-color: #dfe6e9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Part 1: ID Selector */
+#unique-box {
+    border: 2px solid #16a085;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+/* Part 3: Card Component */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.card p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
